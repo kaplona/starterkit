@@ -2,7 +2,7 @@
 
 Simple boilerplate to speed up new projects' development.
 
-This starter kit wire together hapi.js server, webpack, bable transpiler, react.
+This starter kit wires together hapi.js server, webpack, bable transpiler, react.
 
 
 ## Features
