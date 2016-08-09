@@ -43,7 +43,7 @@ var webpackConfig = {
 
 
 if (process.env.NODE_ENV === 'production') {
-    
+
     Array.prototype.push.apply(webpackConfig.plugins, [
         new webpack.optimize.UglifyJsPlugin({
             compressor: {

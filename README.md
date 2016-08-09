@@ -9,7 +9,5 @@ This starter kit wire together hapi.js server, webpack, bable transpiler, react.
 
 * Server-side react views
 * Babel transpilation JSX to JS, ES6 to ES5
-
-* AJAX service
 * LESS webpack loader
-* Basic testing setup with Mocha, Chai and jsdom
+* AJAX service
