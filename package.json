@@ -13,7 +13,7 @@
     "start": "NODE_ENV=production     node --harmony src/server.js",
     "build": "NODE_ENV=production     node --harmony src/scripts/make.js  && NODE_ENV=production  webpack -p --config src/config/webpack-config.js",
     "dev-start": "NODE_ENV=development    ./node_modules/nodemon/bin/nodemon.js --harmony src/server.js",
-    "dev-build": "NODE_ENV=development    node --harmony src/scripts/make.js  && NODE_ENV=development  webpack -p --config src/config/webpack-config.js",
+    "dev-build": "NODE_ENV=development    node --harmony src/scripts/make.js  && NODE_ENV=development  webpack --watch --config src/config/webpack-config.js",
     "make": "NODE_ENV=development    node --harmony src/scripts/make.js"
   },
   "babel": {
